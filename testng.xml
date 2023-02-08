@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	<listeners>
+		<listener class-name="SwagLabsE2E.Listeners"></listener>
+	</listeners>
+  <test name="standard_user_login Tests">
+    <classes>
+      <class name="SwagLabsE2E.LoginPageTest">
+		 <methods>
+			  <exclude name="locked_out_login"></exclude>
+		  </methods>
+	  </class>
+    </classes>
+  </test>
+ 
+    <test name="locked_out_login Tests">
+    <classes>
+      <class name="SwagLabsE2E.LoginPageTest">
+		  <methods>
+			  <exclude name="standard_user_login"></exclude>
+		  </methods>
+	  </class>
+    </classes>
+  </test>
+  <test name="Inventory Function Tests">
+    <classes>
+        <class name="SwagLabsE2E.InventoryPageTest"/>
+    </classes>
+  </test>
+
+</suite>

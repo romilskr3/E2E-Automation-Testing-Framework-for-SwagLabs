@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-07T01:40:40 GMT" name="Suite" finished-at="2023-02-07T01:40:45 GMT" duration-ms="5431">
+    <groups>
+    </groups>
+    <test started-at="2023-02-07T01:40:40 GMT" name="Test" finished-at="2023-02-07T01:40:45 GMT" duration-ms="5431">
+      <class name="SwagLabsE2E.LoginPageTest">
+        <test-method signature="locked_out_login()[pri:0, instance:SwagLabsE2E.LoginPageTest@72d1ad2e]" started-at="2023-02-07T01:40:40 GMT" name="locked_out_login" finished-at="2023-02-07T01:40:43 GMT" duration-ms="3584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locked_out_login -->
+        <test-method signature="standard_user_login()[pri:0, instance:SwagLabsE2E.LoginPageTest@72d1ad2e]" started-at="2023-02-07T01:40:43 GMT" name="standard_user_login" finished-at="2023-02-07T01:40:45 GMT" duration-ms="1665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- standard_user_login -->
+        <test-method is-config="true" signature="closrdriver1()[pri:0, instance:SwagLabsE2E.LoginPageTest@72d1ad2e]" started-at="2023-02-07T01:40:45 GMT" name="closrdriver1" finished-at="2023-02-07T01:40:45 GMT" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closrdriver1 -->
+      </class> <!-- SwagLabsE2E.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

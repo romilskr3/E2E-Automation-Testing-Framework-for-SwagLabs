@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="SwagLabsE2E.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="locked_out_login Tests(failed)">
+    <classes>
+      <class name="SwagLabsE2E.LoginPageTest">
+        <methods>
+          <include name="locked_out_login"/>
+          <include name="closedriver"/>
+        </methods>
+      </class> <!-- SwagLabsE2E.LoginPageTest -->
+    </classes>
+  </test> <!-- locked_out_login Tests(failed) -->
+</suite> <!-- Failed suite [Suite] -->
